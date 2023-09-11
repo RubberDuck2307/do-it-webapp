@@ -2,4 +2,4 @@ Web application for managing tasks, events and notes. The data are processed thr
 
 Used technologies: Typescript, React.js, TailwindCSS
 
-API this aplication uses: https://github.com/RubberDuck2307/do-it-api
+API this aplication uses: https://github.com/RubberDuck2307/do-it-rest-api
