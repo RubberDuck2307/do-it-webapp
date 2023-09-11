@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+@tailwind base;
+
+:root{
+    --primaryScroll: rgb(177, 177, 177) ;
+    --secondaryScroll: #e5e7eba2;
+  }
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var( --secondaryScroll) var(--primaryScroll);
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 17px;
+
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--secondaryScroll  );
+    border-radius: 5px;
+    border: 6px solid rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+    
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--primaryScroll);
+    border-radius: 14px;
+    border: 6px solid rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+  }
+
+
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Summary Notes Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Summary Notes Regular'), url('../Assets/SummaryNotesRegular-Ea5ln.woff') format('woff');
+    }

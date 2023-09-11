@@ -1,0 +1,7 @@
+export const EMAIL_ALREADY_TAKEN_RESPONSE = "EmailAlreadyTaken"
+export const EMAIL_NOT_CONFIRMED_RESPONSE = "EmailNotVerified"
+export const INVALID_CONFIRMATION_TOKEN = "WrongConfirmationToken"
+export const CONFIRMATION_TOKEN_EXPIRED = "ConfirmationTokenExpired"
+export const USERACCOUNT_NOT_FOUND = "UserEmailNotFoundException"
+export const INVALID_PASSWORD_TOKEN = "InvalidResetPasswordTokenException"
+export const EXPIRED_PASSWORD_TOKEN = "ExpiredResetPasswordTokenException"
